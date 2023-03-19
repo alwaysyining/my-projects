@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+		<title>Sweets Fantasyland Resort | Book Now</title>
+		<meta name="keywords" content="Sweets, Fantasyland, Resort">
+        <meta name="description" content="Welcome to Sweets Fantasyland Resort. A paradise for sweet tooth in the fairy-floss clouds over the Pacific Ocean.">
+        <meta name="author" content="Yi-Ning Ho">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+			@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+		</style>
+		<a href="https://icons8.com/icon/Alsmzv0mFxxJ/menu">Menu icon by Icons8</a>
+		<link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body id="page-book">
+	
+		<header>
+            <h1>BOOK YOUR VACATION</h1>            
+        </header>
+				
+		<nav id="menu">
+
+			<ul class="log-in-menu">
+				<li>
+					<a href="book.html" class="current">Book Now !</a>
+				</li>
+				<li>
+					<a id="log-in-button">Log In or Sign Up</a>
+				</li>
+			</ul>
+
+			<ul class="main-menu">
+				<li>
+					<a href="index.html">HOME</a>
+				</li>
+				<li>
+					<a href="information.html">INFORMATION</a>
+				</li>
+				<li>
+					<a href="rooms.html">ROOMS</a>
+				</li>
+                <li>
+					<a href="activities.html">ACTIVITIES</a>
+				</li>
+                <li>
+					<a href="shop.html">SHOP</a>
+				</li>
+			</ul>
+
+			<div class="mobile-menu">
+				<a href="javascript:void(0);" class="menu-icon" onclick="mobileMenu()">
+					<img src="https://img.icons8.com/color/48/000000/menu--v4.png"/>
+				</a>
+				<div id="menu-links">
+					<a href="index.html">HOME</a>
+					<a href="information.html">INFORMATION</a>
+					<a href="rooms.html">ROOMS</a>
+					<a href="activities.html">ACTIVITIES</a>
+					<a href="shop.html">SHOP</a>
+				</div>
+			</div>
+
+		</nav>
+
+		<section id="log-in-modal" class="modal">
+
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <form>
+					<figure>
+						<img src="images/logo.svg" alt=" Sweets Fantasyland Resort logo">
+					</figure>
+                    <div>
+                        <label for="username"><b>Username</b></label>
+                        <input type="text" name="username" id="form-username" placeholder="Enter Username" required>
+                        <label for="password"><b>Password</b></label>
+                        <input type="password" name="password" placeholder="Enter Password" required>
+                    
+                        <button type="submit" class="submit-button">Log In / Sign Up</button>
+                        
+                    </div>
+                  
+                    <div>
+                      <button type="button" class="cancel-button">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section id="book-form">
+
+            <form method="get" action="book.html">
+
+			    <fieldset>
+
+			        <legend>
+			            BOOKING DETAILS
+			        </legend>
+
+			        <p>Please fill in the form to complete the reservation.</p>
+                    <br>
+
+			        <div class="form-item">
+				        <label for="form-first-name">First Name:</label>
+				        <div class="form-element">
+				        	<input type="text" name="firstName" id="form-first-name" placeholder="Please enter your first name" />
+				        </div>
+			        </div>
+
+			        <div class="form-item">
+				        <label for="form-last-name">Last Name:</label>
+				        <div class="form-element">
+				        	<input type="text" name="lastName" id="form-last-name" placeholder="Please enter your last name" />
+				        </div>
+			        </div>
+
+                    <div class="form-item">
+				        <label for="form-phone-number">Phone Number:</label>
+				        <div class="form-element">
+				        	<input type="tel" name="phone" id="form-phone" placeholder="Please enter your phone number"/>
+				        </div>
+			        </div>
+
+                    <div class="form-item">
+				        <label for="form-email">E-mail:</label>
+				        <div class="form-element">
+				        	<input type="text" name="email" id="form-email" placeholder="Please enter your e-mail" />
+				        </div>
+			        </div>
+
+					<div class="form-item">
+						<label for="form-from-date">From Date:</label>
+						<div class="form-element">
+							<input type="date" id = "form-from-date">
+						</div>
+					</div>
+
+					<div class="form-item">
+						<label for="form-to-date">To Date:</label>
+						<div class="form-element">
+							<input type="date" id = "form-to-date">
+						</div>
+					</div>
+
+			        <div class="form-item">
+			            <label>Room Type:</label>
+			            <div class="form-element">
+				            <label for="form-standard-room">
+				            	<input type="radio" id="form-standard-room" name="room" value="Standard Room"> Standard Room
+				            </label>
+				            <label for="form-luxury-suite">
+				            	<input type="radio" id="form-luxury-suite" name="room" value="Luxury Suite"> Luxury Suite
+				            </label>
+				            <label for="form-villa">
+				            	<input type="radio" id="form-villa" name="room" value="Villa"> Villa
+				            </label>
+				            <label for="form-dormitory-lodge">
+				            	<input type="radio" id="form-dormitory-lodge" name="room" value="Dormitory Lodge"> Dormitory Lodge
+				            </label>
+			            </div>
+			        </div>
+
+                    <div class="form-item">
+				        <label for="form-room-number">Number of Rooms:</label>
+				        <div class="form-element">
+				        	<input type="text" name="roomNumber" id="form-room-number" placeholder="Please enter the number of rooms" />
+				        </div>
+			        </div>
+
+			    </fieldset>
+
+			    <fieldset>
+			        <button type="submit">Submit</button>
+			    </fieldset>
+
+			</form>
+
+        </section>
+		
+		
+		<footer id="page-footer">
+
+			<img src="images/logo-small.svg" alt=" Sweets Fantasyland Resort logo">
+		
+			<p>&copy; Sweets Fantasyland Resort, All Rights Reserved</p>
+	
+		</footer>
+
+		<script src="js/script.js"></script>
+
+    </body>
+
+</html>

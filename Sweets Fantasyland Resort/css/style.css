@@ -1,0 +1,918 @@
+* {
+	/*border: 2px solid red; */
+	
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--white-color: rgb(255, 255, 255);
+	--yellow-color: rgb(250, 250, 180);
+	--pink-color: rgb(255, 200, 200);
+	--rose-color: rgb(255, 75, 105);
+	--brown-color: rgb(100, 25, 25);
+	--page-serif-font: Georgia, "Times New Roman", Times, serif;
+	--page-sans-serif-font: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+	--page-comic-font: "Comic Sans MS", "Comic Sans", "Chalkboard SE", "Comic Neue", cursive;
+  }
+
+body {
+    font-family: var(--page-sans-serif-font);
+	font-size: 20px;
+	line-height: 1.5em;
+	overflow: auto;
+}
+
+/* Index Page*/
+#page-index {
+	background-image: url("../images/background-index.svg");
+    background-size: cover;
+	background-position: center center;
+	font-family: var(--page-comic-font);
+	padding: 6% 3% 3%;
+}
+
+#page-index img {
+	display: block;
+    margin: auto;
+    max-width: 50%;
+	padding: 3%;
+}
+
+#page-index .index-menu {
+	text-align: center;
+	padding: 3%;
+}
+
+#page-index .index-menu ul {
+	display: flex;
+	justify-content: center;
+    text-align: center;
+	padding: 3%;
+}
+
+#page-index .index-menu li {
+	list-style: none;
+	margin: 0 6%;
+	padding: 0;
+}
+
+#page-index .index-menu a {
+	display: inline-block;
+	background-color: darkslateblue;
+	font-size: 1.5em;
+	color: white;
+	text-decoration: none;
+	width: 7em;
+	padding: 0.5em 0.5em;
+	border-radius: 20px;
+	box-shadow: inset rgba(71, 61, 139, 0.5) 0 2px 1px, inset rgba(0,0,0,0.3) 0 -2px 1px;
+}
+
+#page-index .index-menu a:hover {
+	background-color: white;
+	color: black;
+	box-shadow: none;
+}
+
+#copy-right {
+	font-size: 14px;
+	font-style: italic;
+	padding: 2%;
+	display: flex;
+	justify-content: center;
+    text-align: center;
+}
+
+/* Page Header */
+#page-header {
+    padding: 10em 3em 8em;
+	position: relative;	
+	display: flex;
+	justify-content: center;
+    text-align: center;	
+}
+
+#page-information #page-header, 
+#page-shop #page-header {
+	background-image: url("../images/background-information.jpg");
+	background-blend-mode: screen;
+	background-color: rgba(255, 255, 255, 0.6);
+    background-size: cover;
+	background-position: center center;
+}
+
+#page-rooms #page-header {
+	background-image: url("../images/background-rooms.jpg");
+	background-blend-mode: screen;
+	background-color: rgba(255, 255, 255, 0.6);
+    background-size: cover;
+	background-position: center center;
+}
+
+#page-activities #page-header {
+	background-image: url("../images/background-activities.jpg");
+	background-blend-mode: screen;
+	background-color: rgba(255, 255, 255, 0.6);
+    background-size: cover;
+	background-position: center center;
+}
+
+#page-header h1 {
+	font-size: 3em;
+	font-family: var(--page-comic-font);
+	line-height: 1em;
+	font-weight: 400;
+	text-decoration: underline;
+	padding: 0.75em 0.5em;
+}
+
+#page-header p {
+	font-size: 1.2em;
+	font-family: var(--page-comic-font);
+	font-weight: 500;
+	padding: 0.75em 0.5em;
+}
+
+/* Menu */
+#menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	font-family: var(--page-comic-font);
+	z-index: 1;
+}
+
+#menu .log-in-menu {
+	background: var(--rose-color);
+}
+
+#menu .main-menu {
+	background: var(--white-color);
+}
+
+#menu .mobile-menu {
+	display: none;
+}
+
+#menu ul {
+	display: flex;
+	justify-content: center;
+    text-align: center;
+}
+
+#menu li {
+	list-style: none;
+}
+
+#menu a,
+#menu button {
+	font-family: var(--page-comic-font);
+	display: block;
+	color: var(--brown-color);
+	text-decoration: none;
+	border-radius: 8px;
+	cursor: pointer;
+}	
+
+#menu .log-in-menu a,
+#menu .log-in-menu button  {
+	background: white;
+	width: 9em;
+	padding: 0 0.5em;
+	margin: 0.5em 0.5em;
+	font-size: 0.9em;
+}
+
+#menu .main-menu {
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+#menu .main-menu a {
+	padding: 0.25em 1em;
+	margin: 0.5em 0;
+}
+
+#menu .log-in-menu .current,
+#menu .main-menu .current a,
+#menu .mobile-menu #menu-links .current {
+	background: var(--brown-color);
+	color: white;
+	box-shadow: inset rgba(100, 25, 25, 0.5) 0 2px 2px, inset rgba(0,0,0, 0.3) 0 -2px 1px;
+}
+
+#menu .book a {
+	background: var(--brown-color);
+	color: white;
+}
+
+#menu a:hover,
+.read-more a:hover,
+.book-now a:hover {
+	font-style: italic;
+	font-weight: 1000;
+	text-decoration: underline;
+}
+
+/* Main Content */
+.pink-section {
+	background: var(--pink-color);
+	color: black;
+	padding: 2em 3em;
+	overflow: hidden;
+}
+
+.white-section {
+	background: white;
+	color: black;
+	padding: 2em 3em;
+	overflow: hidden;
+}
+
+.yellow-section {
+	background: var(--yellow-color);
+	color: black;
+	padding: 2em 3em;
+	overflow: hidden;
+}
+
+.white-background {
+	background: white;
+	padding: 2em;
+	border-radius: 20px;
+	border: 2px solid var(--brown-color);
+}
+
+.yellow-background {
+	background: var(--yellow-color);
+	padding: 2em;
+	border-radius: 20px;
+	border: 2px solid var(--brown-color);
+}
+
+.pink-background {
+	background: var(--pink-color);
+	padding: 2em;
+	border-radius: 20px;
+	border: 2px solid var(--brown-color);
+}
+
+#resort-at-a-glance h2,
+#news-and-offers h2,
+#location-and-transportation h2,
+#contact h2,
+#standard-room h2,
+#luxury-suite h2,
+#villa h2,
+#dormitory-lodge h2 {
+	font-family: var(--page-serif-font);
+	font-style: italic;
+	font-size: 2em;
+	font-weight: 400;
+	line-height: 1em;
+	width: 100%;
+	margin-bottom: 0.5em;
+}
+
+#resort-at-a-glance div,
+#news-and-offers div,
+#location-and-transportation div,
+#contact div,
+#standard-room div,
+#luxury-suite div,
+#villa div, 
+#dormitory-lodge div {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0;
+	flex-wrap: nowrap;
+	text-align: left;
+}
+
+#resort-at-a-glance figure,
+#news-and-offers div figure,
+#location-and-transportation div figure,
+#contact div figure,
+#standard-room div .slideshow,
+#luxury-suite div .slideshow,
+#villa div .slideshow, 
+#dormitory-lodge div .slideshow {
+	width: 40%;
+	padding: 1em 0;
+	margin-right: 1em;
+}
+
+#resort-at-a-glance img,
+#news-and-offers div img,
+#location-and-transportation div img,
+#contact div img,
+#standard-room div img,
+#luxury-suite div img,
+#villa div img,
+#dormitory-lodge div img {
+	border-radius: 20px;
+	max-width: 100%;
+}
+
+.content {
+	width: 60%;
+	padding: 1em 0;
+	margin-left: 2em;
+}
+
+.content h3 {
+	font-family: var(--page-comic-font);
+	margin-bottom: 0.5em;
+}
+
+.content p {
+	font-family: var(--page-sans-serif-font);
+	line-height: 1.5em;
+}
+
+.read-more {
+	width: 100%;
+}
+
+.book-now {
+	padding: 0.25em;
+	border-radius: 10px;
+	border: 2px solid var(--brown-color);
+}
+
+.book-now a {
+	color: var(--rose-color);
+	font-size: 1.2em;
+	font-weight: bold;
+	display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.read-more a {
+	color: var(--rose-color);
+	font-weight: bold;
+	font-size: 1em;
+	text-decoration: underline;
+	display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.read-more a:after,
+.book-now a:after {
+	content: ">";
+	margin-left: 0.5em;
+}
+
+/* Activities */
+#activities {
+	display: flex;
+	justify-content: flex-start;
+	padding: 3em;
+	flex-wrap: nowrap;
+	text-align: left;
+}
+
+#activities article figure img {
+	width: 100%;
+	border-radius: 20px;
+}
+
+#activities article {
+	background: var(--white-color);
+	width: 33.33%;
+	margin: 0.5em;
+	border-radius: 20px;
+	border: 2px solid var(--brown-color);
+	padding: 1em;
+}
+
+#activities article h3 {
+	font-family: var(--page-comic-font);
+	margin: 0.5em 0;
+	text-align: center;
+}
+
+#activities article h4 {
+	margin: 0.5em 0;
+}
+
+#activities article .expand-button,
+#activities article .collapse-button {
+	display: none; /* Hide expand button when JavaScript is not enabled */
+}
+
+body.js #activities article .expand-button {
+	display: block; /* Show expand button when JavaScript is enabled */
+	text-align: right;
+}
+
+body.js #activities article .collapse-button {
+	text-align: right;
+}
+
+body.js #activities article .expand-button a,
+body.js #activities article .collapse-button a {
+	font-family: var(--page-comic-font);
+	font-size: 0.8em;
+	color: var(--rose-color);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+body.js #activities article .expand-button a:after {
+	content: "\25BC";
+	padding-left: 0.25em;
+}
+
+body.js #activities article .collapse-button a:after {
+	content: "\25B2";
+	padding-left: 0.25em;
+}
+
+body.js #activities article .detail {
+	height: 0;
+	overflow: hidden;
+	transition: all 1s ease;
+}
+
+body.js #activities article.expanded .expand-button {
+	display: none;
+}
+
+body.js #activities article.expanded .collapse-button {
+	display: block;
+}
+
+body.js #activities article.expanded .detail {
+	height: 100%;
+}
+
+/* BOOK NOW */
+#page-book header {
+	background: var(--yellow-color);
+	background: linear-gradient(0deg, rgb(253, 172, 199), var(--pink-color), var(--yellow-color)30%);
+    padding: 6em 3em 2em;
+	position: relative;	
+	display: flex;
+	justify-content: center;
+    text-align: center;	
+}
+
+#page-book h1 {
+	color: var(--brown-color);
+	font-family: var(--page-comic-font);
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 1.5em;
+	text-decoration: underline;
+}
+
+/* Form */
+#book-form {
+	background: var(--yellow-color);
+	padding: 2em 3em;
+	background-image: url("../images/background-book.jpg");
+    background-size: cover;
+	background-position: center top;
+}
+
+#book-form fieldset {
+    margin-bottom: 2em;
+    padding: 1em 2em;
+    border: 0;
+    border-radius: 20px;
+    background: white;
+    display: block;
+	border: 2px solid var(--brown-color);
+}
+
+#book-form legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 0.5em 1em;
+    margin: 0 -1em;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(-10deg, var(--brown-color), var(--rose-color), var(--pink-color));
+}
+
+#book-form fieldset .form-item {
+    margin-bottom: 1em;
+    align-items: center;
+}
+
+#book-form fieldset .form-item > label {
+    font-weight: bold;
+    padding-right: 2em;
+    text-align: right;
+    text-shadow: rgba(0,0,0,0.3) 3px 3px 5px;
+}
+#book-form fieldset .form-item .form-element {
+	padding: 0 1.5em 0 0;
+}
+
+#book-form fieldset .form-item .form-element > label {
+	display: block;
+}
+
+input[type=text], input[type=number], input[type=tel], input[type=email], input[type=date], input[type=password] textarea {
+    box-shadow: rgba(0,0,0,0.15) 3px 3px 5px;
+    background: white;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    width: 100%;
+    font-size: 0.9em;
+}
+
+input[type=text]:focus, 
+input[type=number]:focus, 
+input[type=tel]:focus, 
+input[type=email]:focus,
+input[type=date]:focus,
+input[type=password] {
+    background: var(--yellow-color);
+	border-color: black;
+}
+
+input[type=radio], input[type=checkbox] {
+    margin-right: 1em;
+}
+
+label.error {
+	color: red;
+}
+
+input[type=text].error, 
+input[type=number].error, 
+input[type=tel].error, 
+input[type=email].error,
+input[type=date].error {
+	border-color: red;
+}
+
+#book-form form button {
+    font-weight: bold;
+    font-size: 1.3em;
+    background: black;
+    padding: 0.5em 1em;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    background: linear-gradient(0deg, var(--brown-color), var(--rose-color));
+    cursor: pointer;
+    width: 100%;
+}
+
+#book-form form button[disabled] {
+	background: #dddddd;
+	color: #999;
+	cursor: default;
+}
+
+.name {
+	font-weight: bold;
+	color: red;
+}
+
+/* Log in */
+#log-in-modal {
+	display: none; 
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto; 
+	background-color: rgb(0,0,0); 
+	background-color: rgba(0,0,0,0.4);
+}
+
+#log-in-modal .modal-content {
+	background: var(--white-color);
+	margin: 10% auto;
+	padding: 1em;
+	border: 2px solid var(--brown-color);
+	width: 50%; 
+}
+
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 2em;
+	font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#log-in-modal form {
+	border: 3px solid var(--pink-color);
+	padding: 1em;
+}
+
+#log-in-modal form figure {
+	width: 60%;
+	margin: auto;
+	padding:  1em;
+}
+
+#log-in-modal form input[type=text], input[type=password] {
+	box-shadow: rgba(0,0,0,0.15) 3px 3px 5px;
+	font-size: 0.9em;
+	width: 100%;
+	border-radius: 5px;
+    padding: 0.5em 1em;
+	margin: 0.5em 0;
+	display: inline-block;
+	border: 1px solid rgb(204, 204, 204);
+	box-sizing: border-box;
+}
+  
+.submit-button {
+	font-size: 0.9em;
+	padding: 0.5em 1em;
+	background:var(--pink-color);
+	width: 100%;
+	margin: 1em 0;
+	cursor: pointer;
+}
+
+.cancel-button {
+	font-size: 0.9em;
+	padding: 0.5em 1em;
+	background:var(--rose-color);
+	cursor: pointer;
+}
+
+/* Slideshow */
+.slideshow div {
+	margin: 0 auto;
+	margin-top: 0;
+	z-index: 0;
+}
+
+.slideshow img {
+	width: 100%;
+	border-radius: 20px;
+}
+
+.slideshow nav {
+	display: none;
+	text-align: center;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+}
+
+#page-rooms .slideshow nav {
+	margin-bottom: 0;
+}
+
+.slideshow nav span {
+	color: var(--brown-color);
+	font-size: 0.8em;
+	cursor: pointer;
+	margin: 0 2em;
+	padding: 0.5em;
+	font-weight: bold;
+	border: 1px solid var(--brown-color);
+}
+
+.slideshow nav span:hover {
+	background: var(--brown-color);
+	color: var(--white-color)
+	
+}
+
+body.js .slideshow nav {
+	display: block;
+}
+
+/* Footer */
+#page-footer {
+	background: var(--brown-color);
+	padding: 0.5em ;
+	position: relative;
+	display: block;
+	justify-content: center;
+    text-align: center;
+}
+
+#page-footer img {
+	max-width: 120px;
+}
+
+#page-footer p {
+	color: var(--white-color);
+	font-size: 12px;
+	font-style: italic;
+	line-height: 1em;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+	body {
+		font-size: 18px;
+	}
+
+	/* Index Page */
+	#page-index {
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		font-family: var(--page-comic-font);
+		padding: 25% 3% 3%;
+		height: 100%;
+		vertical-align: top;
+	}
+	
+	#page-index img {
+		max-width: 60%;
+	}
+
+	#page-index .index-menu a {
+		font-size: 20px;
+	}
+
+	/* Page Header */
+	#menu .main-menu a {
+		padding: 0.5em 0.75em;
+		margin: 0.5em 0;
+	}
+
+	/* Main Content */
+	#resort-at-a-glance h2,
+	#news-and-offers h2,
+	#location-and-transportation h2,
+	#contact h2,
+	#standard-room h2,
+	#luxury-suite h2,
+	#villa h2,
+	#dormitory-lodge h2 {
+		text-align: center;
+	}
+	
+	#resort-at-a-glance div,
+	#news-and-offers div,
+	#location-and-transportation div,
+	#contact div,
+	#standard-room div,
+	#luxury-suite div,
+	#villa div,
+	#dormitory-lodge div {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		text-align: center;
+	}
+
+	#resort-at-a-glance div figure,
+	#news-and-offers div figure,
+	#location-and-transportation div figure,
+	#contact div figure {
+		width: 100%;
+		padding: 1em 0;
+		margin: 0;
+	}
+
+	#standard-room div .slideshow,
+	#luxury-suite div .slideshow,
+	#villa div .slideshow,
+	#dormitory-lodge div .slideshow {
+		width: 100%;
+		padding: 1em 0 0.5em;
+		margin: 0;
+	}
+
+	.content {
+		width: 100%;
+		margin: 0;
+	}
+
+	.content h3 {
+		margin-bottom: 1em;	
+	}
+
+	/* Activities */
+	#activities{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	#activities article {
+		width: 100%;
+		margin: 1em 0;
+	}
+
+	/* Log In */
+	#log-in-modal .modal-content {
+		width: 70%; 
+	}
+
+	#log-in-modal form figure {
+		width: 80%;
+	}
+		
+}
+
+
+@media only screen and (max-width: 600px) {
+
+	body {
+		font-size: 16px;
+	}
+
+	/* Index Page */
+	#page-index img {
+		max-width: 70%;
+	}
+	#page-index .index-menu li {
+		margin: 0 4%;
+	}
+	
+	#page-index .index-menu a {
+		font-size: 18px;
+		width: 6em;
+	}
+
+	#copy-right {
+		font-size: 10px;
+	}
+
+	/* Page Header */
+	#page-header h1 {
+		font-size: 2.5em;
+	}
+
+	/* Main Menu */
+	#menu .main-menu {
+		display: none;
+	}
+	
+	#menu .mobile-menu {
+		display: block;
+		justify-content: center;
+		text-align: center;
+		background: var(--white-color);
+		border-radius: 0;
+	}
+
+	#menu .mobile-menu #menu-links {
+		display: none;
+	}
+
+	#menu .mobile-menu #menu-links a {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		text-align: center;
+		padding: 0.25em;
+		margin: 0;
+	}
+
+	/* Main Content */
+	.pink-section,
+	.yellow-section,
+	.white-section {
+		padding: 2em;
+	}
+
+	.pink-background,
+	.yellow-background,
+	.white-background,
+	.activities-party,
+	.activities-making,
+	.activities-river,
+	#book-form {
+		padding: 2em;
+	}
+
+	/* Log In */
+	#log-in-modal .modal-content {
+		width: 80%; 
+	}
+
+	#log-in-modal form figure {
+		width: 80%;
+	}
+
+	/* Footer */
+	#page-footer p {
+		font-size: 8px;
+		font-style: italic;
+	}
+
+}
+

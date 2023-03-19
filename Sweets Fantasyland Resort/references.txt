@@ -1,0 +1,109 @@
+In-Text Citation (Quotation):
+(Artist Surname, Year)
+
+References:
+Artist Surname, First Initial. Second Initial. (Year). Title of the artwork [Format]. Title of the Website. URL (address of web site)
+
+/* Plugins */
+https://jquery.malsup.com/cycle2/
+
+/* Index */
+[Image of gradient pastel sky background]. (n.d.). freepik. Retrieved September 30, 2021, from https://www.freepik.com/free-vector/gradient-pastel-sky-background_13398883.htm#page=1&query=pink%20cloud&position=22
+
+
+/* Information */
+[Photograph of dessert with tea]. (n.d.). freepik. Retrieved September 30, 2021, from https://www.freepik.com/free-photo/dessert-with-tea_5402091.htm#page=1&query=desserts&position=16&from_view=search
+
+Beliaikin, A. (2018). Man Wearing Pink Polo Shirt With Text Overlay[Photograph]. Pexels. Retrieved October 3, 2021, from https://www.pexels.com/photo/man-wearing-pink-polo-shirt-with-text-overlay-1114376/
+
+Stefancik, S. (2016). Aerial View of White Clouds during Sunset[Photograph]. Pexels. Retrieved October 3, 2021, from https://www.pexels.com/photo/aerial-view-of-white-clouds-during-sunset-91217/
+
+Piacquadio, A. (2020). Relaxed Woman in Cafe Talking on Smartphone and Using Laptop[Photograph]. Pexels. Retrieved October 3, 2021, from https://www.pexels.com/photo/relaxed-woman-in-cafe-talking-on-smartphone-and-using-laptop-3783522/
+
+
+/* Rooms */
+Akyurt, E. (2018). Photo of Wine Bottle And Food On Table[Photograph]. Pexels. Retrieved October 4, 2021, from https://www.pexels.com/photo/photo-of-wine-bottle-and-food-on-table-1579253/
+
+Max Vakhtbovych. (2021). Bedroom interior with bed near pouf[Photograph]. Pexels. Retrieved October 4, 2021, from https://www.pexels.com/photo/bedroom-interior-with-bed-near-pouf-6782577/
+
+Jonathan Borba. (2019). Cozy Modern Bedroom[Photograph]. Pexels. Retrieved October 4, 2021, from https://www.pexels.com/photo/cozy-modern-bedroom-3144580/
+
+Max Vakhtbovych. (2021). Modern bedroom interior with minimalist furniture and translucent curtains[Photograph]. Pexels. Retrieved October 4, 2021, from https://www.pexels.com/photo/modern-bedroom-interior-with-minimalist-furniture-and-translucent-curtains-6585597/
+
+Max Vakhtbovych. (2020). Interior of light elegant bedroom[Photograph]. Pexels. Retrieved October 4, 2021, from https://www.pexels.com/photo/interior-of-light-elegant-bedroom-6207819/
+
+Vecislavas Popa. (2018). Architectural Photography of Toilet[Photograph]. Pexels. Retrieved October 4, 2021, https://www.pexels.com/photo/architectural-photography-of-toilet-1571462/
+
+
+Clark, B. (2020). White Comforter on Maters Bedroom[Photograph]. Pexels. Retrieved October 4, 2021, from https://www.pexels.com/photo/white-comforter-on-maters-bedroom-3701455/
+
+Pixabay. (2016). Person Showing Bedroom Interior[Photograph]. Pexels. Retrieved October 4, 2021, from https://www.pexels.com/photo/person-showing-bedroom-interior-237371/
+
+Ben Mack. (2021). Terrace of modern villa overlooking ocean[Photograph]. Pexels. Retrieved October 4, 2021, from https://www.pexels.com/photo/terrace-of-modern-villa-overlooking-ocean-6775268/
+
+Max Vakhtbovych. (2020). Modern bathroom interior with freestanding tub[Photograph]. Pexels. Retrieved October 4, 2021, from https://www.pexels.com/photo/modern-bathroom-interior-with-freestanding-tub-6207947/
+
+
+Whiticker, R. (2020). White Concrete Building Near Swimming Pool[Photograph]. Pexels. Retrieved October 4, 2021, from https://www.pexels.com/photo/white-concrete-building-near-swimming-pool-3797503/
+
+Max Vakhtbovych. (2021). Spacious studio apartment with cozy sofa and kitchen[Photograph]. Pexels. Retrieved October 4, 2021, from https://www.pexels.com/photo/spacious-studio-apartment-with-cozy-sofa-and-kitchen-7005295/
+
+Pixabay. (2016). White Wooden Building[Photograph]. Pexels. Retrieved October 4, 2021, from https://www.pexels.com/photo/construction-house-architecture-luxury-53610/
+
+Max Vakhtbovych. (2020). Modern furniture in spacious living room and kitchen[Photograph]. Pexels. Retrieved October 4, 2021, from https://www.pexels.com/photo/modern-furniture-in-spacious-living-room-and-kitchen-6283973/
+
+Max Vakhtbovych. (2020). Interior of bathroom with shower cabin[Photograph]. Pexels. Retrieved October 4, 2021, from https://www.pexels.com/photo/interior-of-bathroom-with-shower-cabin-7227624/
+
+Max Vakhtbovych. (2021). Big suburb house with terrace and backyard[Photograph]. Pexels. Retrieved October 4, 2021, from https://www.pexels.com/photo/big-suburb-house-with-terrace-and-backyard-7061662/
+
+Max Vakhtbovych. (2021). Spacious two storey house with comfortable furniture[Photograph]. Pexels. Retrieved October 4, 2021, from https://www.pexels.com/photo/spacious-two-storey-house-with-comfortable-furniture-7061395/
+
+Max Vakhtbovych. (2020). Contemporary bathroom with mirror and big tub[Photograph]. Pexels. Retrieved October 4, 2021, from https://www.pexels.com/photo/contemporary-bathroom-with-mirror-and-big-tub-6315803/
+
+
+Cottonbro (2020). Group of People Sitting on Brown Wooden Floor[Photograph]. Pexels. Retrieved October 4, 2021, from https://www.pexels.com/photo/man-love-people-woman-5158946/
+
+Cottonbro (2020). Woman in Red T-shirt Sitting on Black Chair[Photograph]. Pexels. Retrieved October 4, 2021, from https://www.pexels.com/photo/woman-in-red-t-shirt-sitting-on-black-chair-5158980/
+
+Cottonbro (2020). Woman in White Dress Sitting on White Couch[Photograph]. Pexels. Retrieved October 4, 2021, from https://www.pexels.com/photo/woman-in-white-dress-sitting-on-white-couch-5158462/
+
+Cottonbro (2020). White Wooden Bed Frame Near White Window Curtain[Photograph]. Pexels. Retrieved October 4, 2021, from https://www.pexels.com/photo/white-wooden-bed-frame-near-white-window-curtain-5137980/
+
+Cottonbro (2020). Woman in Red Shirt Sitting on Couch[Photograph]. Pexels. Retrieved October 4, 2021, from https://www.pexels.com/photo/man-people-woman-girl-5157328/
+
+
+/* Activities */
+cottonbro (2021). A Close-Up Shot of Assorted Desserts on a Gold Plate[Photograph]. Pexels. Retrieved November 5, 2021, from https://www.pexels.com/photo/a-close-up-shot-of-assorted-desserts-on-a-gold-plate-9799880/
+
+Sauvage, C. (2021). Vacation Party Dinner Table[Photograph]. Pexels. Retrieved November 5, 2021, from https://www.pexels.com/photo/vacation-party-dinner-table-6793461/
+
+epicioci. (2015). Candy Bar Food Candy Bar Sweet[Photograph]. Pixabay. Retrieved November 5, from https://pixabay.com/photos/candy-bar-food-candy-bar-sweet-1022225/
+
+fu zhichao. (2017). Cupcakes Display on Cupcake Rack[Photograph]. Pexels. Retrieved November 12, 2021, from https://www.pexels.com/photo/cupcakes-display-on-cupcake-rack-587739/
+
+Silvia Trigo. (2019). Cakes on Table[Photograph]. Pexels. Retrieved November 12, 2021, from https://www.pexels.com/photo/cakes-on-table-1857157/
+
+
+cottonbro. (2020). Woman in White Button Up Shirt Holding White Ceramic Plate[Photograph]. Pexels. Retrieved November 12, 2021, from https://www.pexels.com/photo/woman-in-white-button-up-shirt-holding-white-ceramic-plate-4686829/
+
+[Photograph of Confectioner in a uniform decorates the cake]. (2019). freepik. Retrieved November 10, 2021, from https://www.freepik.com/free-photo/confectioner-uniform-decorates-cake_7710433.htm#page=1&query=chocolate%20making&position=3&from_view=search
+
+SHVETS production. (2021) Faceless housewife serving homemade cake with fresh berries in kitchen[Photograph]. Pexels. Retrieved November 12, 2021, from https://www.pexels.com/photo/faceless-housewife-serving-homemade-cake-with-fresh-berries-in-kitchen-7525194/
+
+[Photograph of Close up of chocolate arrangement]. (2019). freepik. Retrieved November 10, 2021, from https://www.freepik.com/free-photo/close-up-chocolate-arrangement_6123495.htm#page=1&query=chocolate&position=15&from_view=search
+
+Giftpundits.com. (2019) White Flowers Between Brown Rabbit Figure and Eggs[Photograph]. Pexels. Retrieved November 12, 2021, from https://www.pexels.com/photo/white-flowers-between-brown-rabbit-figure-and-eggs-2072163/
+
+[Photograph of Happy smiling young asian japanese family with preschool kids have fun cooking baking pastry]. (2021). freepik. Retrieved November 10, 2021, from https://www.freepik.com/free-photo/happy-smiling-young-asian-japanese-family-with-preschool-kids-have-fun-cooking-baking-pastry_15116420.htm#page=1&position=2&from_view=detail#query=cookie%20making&position=2&from_view=detail
+
+Nicole Michalou. (2020) Person Using a Cookie Cutter[Photograph]. Pexels. Retrieved November 12, 2021, from https://www.pexels.com/photo/person-using-a-cookie-cutter-6061742/
+
+Nicole Michalou. (2020) Person Holding a Tray With Different Shapes of Brown Cookies[Photograph]. Pexels. Retrieved November 12, 2021, from https://www.pexels.com/photo/person-holding-a-tray-with-different-shapes-of-brown-cookies-6061743/
+
+
+Michelle_Raponi. (2018). Water Park Lazy River Florida[Photograph]. Pixabay. Retrieved November 6, from https://pixabay.com/photos/water-park-lazy-river-florida-3714616/
+
+Michelle_Raponi. (2018). Water Park Lazy River Florida[Photograph]. Pixabay. Retrieved November 6, from https://pixabay.com/photos/water-park-lazy-river-florida-3715120/
+
+Michelle_Raponi. (2018). Water Park Lazy River Florida[Photograph]. Pixabay. Retrieved November 6, from https://pixabay.com/photos/water-park-lazy-river-florida-3715112/
+
